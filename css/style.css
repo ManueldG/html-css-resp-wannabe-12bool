@@ -24,6 +24,7 @@
 }
 
 /* BLOCCO STEPS */
+/*
 #steps .row>.left,
 #steps .row>.central,
 #steps .row>.right {
@@ -33,21 +34,21 @@
 
 #steps {
   text-align: center;
-}
+}*/
 
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
+#why .first,
+#why .second,
+#why .third {
   width: 100%;
   margin-top: 80px;
 }
 
-#why .row img {
+#why /*.row*/ img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
