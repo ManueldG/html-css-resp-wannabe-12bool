@@ -14,11 +14,12 @@
   float: left;
 }
 
-#lezioni .row img {
+#lezioni  img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
 }
 
 #lezioni {
@@ -67,7 +68,9 @@
   background-color: #f9f9f9;
 }
 
-img {
+
+#step img,
+#why img {
   height: 200px;
 }
 
